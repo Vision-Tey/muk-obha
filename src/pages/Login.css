@@ -1,0 +1,68 @@
+#main {
+    width: 100%;
+    height: calc(100%);
+    background: white;
+  }
+  
+  #login-right {
+    position: absolute;
+    right: 0;
+    width: 40%;
+    height: calc(100%);
+    background: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  #login-left {
+    position: absolute;
+    left: 0;
+    width: 60%;
+    height: calc(100%);
+    background: #59b6ec61;
+    display: flex;
+    align-items: center;
+    /*background: url(assets/uploads/blood-cells.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;*/
+  }
+  
+  .card {
+    margin: auto;
+    z-index: 1
+  }
+  
+  
+  
+  .card{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    position: relative;
+    max-width: 100%;
+  }
+  
+  
+  #login-right{
+    background-color: rgb(158, 169, 179);
+  }
+  
+  
+  /* #login-right::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: "100px";
+    width: calc(100%);
+    height: calc(100%);
+    background-color: rgb(158, 169, 179);
+    
+  } */
+  
+  .text-info{
+    text-align: center;
+    color: blue;
+    position: relative;
+  }
+  

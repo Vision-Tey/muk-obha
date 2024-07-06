@@ -1,0 +1,16 @@
+.navbar{
+    background-color: blue;
+    height: 10vh;
+    display: flex;
+}
+.left_navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo, .nav_text{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+
+}

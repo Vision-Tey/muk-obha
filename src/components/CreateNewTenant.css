@@ -1,0 +1,10 @@
+.create_tenant{
+    width: 50rem;
+  box-shadow: 2px 2px 8px #9696968a;
+  border-radius: 6px;
+  padding: 30px;
+  margin: 75px;
+  position: absolute;
+  z-index: 2;
+  background-color: rgb(218, 207, 207);
+}
